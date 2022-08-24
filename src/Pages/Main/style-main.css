@@ -21,6 +21,12 @@
   padding: 2rem;
   margin-top: 2rem;
 }
+@media only screen and (max-width: 1400px) {
+  .Xiaomi-logo {
+    width: 30rem;
+    height: 30rem;
+    padding: 2rem;
+   }}
 @media only screen and (max-width: 800px) {
   .Xiaomi-logo {
     width: 30rem;
@@ -44,10 +50,14 @@
   text-shadow: 0.5rem 0.5rem 0.5rem  rgb(41, 41, 41);
   margin-left: 3rem;
 }
+@media only screen and (max-width: 1400px) {
+  .Nome {
+    font-size: 4rem;
+    margin-left: 3rem;
+   }}
 @media only screen and (max-width: 800px) {
   .Nome {
     font-size: 4rem;
-     
     margin-left: 3rem;
    }}
    @media only screen and (max-width: 400px) {
@@ -62,6 +72,13 @@
   margin-left: 3rem;
   text-shadow: 0.5rem 0.5rem 0.5rem  rgb(41, 41, 41);
 }
+@media only screen and (max-width: 1400px) {
+  .Cidade {
+    font-size: 3rem;
+    color: white;
+    margin-top: -1rem;
+    margin-left: 3rem;
+   }}
 @media only screen and (max-width: 800px) {
   .Cidade {
     font-size: 3rem;
@@ -84,6 +101,13 @@
   margin-left: 3rem;
   text-shadow: 0.5rem 0.5rem 0.5rem  rgb(41, 41, 41);
 }
+@media only screen and (max-width: 1400px) {
+  .Texto {
+    font-size: 2.4rem;
+    color: white;
+    margin-top: 4rem;
+    margin-left: 3rem;
+   }}
 @media only screen and (max-width: 800px) {
   .Texto {
     font-size: 2.4rem;
