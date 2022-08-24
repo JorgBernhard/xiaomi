@@ -19,14 +19,21 @@
 ul {
   display: flex;
   flex-direction: row;
-  width: 60rem;
-  padding: 3rem;
-  background-color: rgba(136, 120, 226, 0.26);
+  width: 80rem;
+  padding:2rem 0.5rem 2rem 0.5rem;
+  background-color: rgba(63, 62, 70, 0.815);
   border-radius: 5rem;
   justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
 }
+@media only screen and (max-width: 800px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    width: 60rem;
+    
+   }}
 @media only screen and (max-width: 400px) {
   ul {
     display: flex;
@@ -35,15 +42,22 @@ ul {
     
    }}
 li {
+  all:unset;
   font-size: 2rem;
   color: rgb(255, 255, 255);
   padding: 1rem;
   margin-left: 1rem;
+  text-align: center;
 }
 .foto {
-  width: 20rem;
+  width: 30rem;
   margin-right: 1rem;
 }
+@media only screen and (max-width: 800px) {
+  .foto {
+    width: 20rem;
+    margin-bottom: 1rem;
+   }}
 @media only screen and (max-width: 400px) {
   .foto {
     margin-bottom: 1rem;

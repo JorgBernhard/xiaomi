@@ -8,7 +8,7 @@ function Main() {
     <div className="Container-Main">
       <img className="Xiaomi-logo" src={XiaomiLogo} alt="xiaomi-logo" />
       <div className="titulo">
-      <h3 className="Nome">Smart Phone Xiaomi</h3>
+      <h3 className="Nome">Smartphone Xiaomi</h3>
       <h3 className="Cidade">Em Natal</h3>
     
       <h4 className="Texto">Compras e varejo<br></br><br></br>

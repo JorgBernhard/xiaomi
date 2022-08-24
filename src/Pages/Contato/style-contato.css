@@ -1,0 +1,66 @@
+.Contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url('../../assets/xiaomi-kit.png');
+    background-color: black;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.Contato-header {
+    font-size: 6rem;
+    margin-top: 8rem;
+   
+    color: orangered;   
+}
+.Info-Maiara {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 0.5rem 0.5rem 0.5rem  rgb(41, 41, 41);
+}
+@media only screen and (max-width: 800px) {
+    .Info-Maiara {
+        text-align: center;
+        font-size: 2rem;
+        width: 20rem;
+     }}
+.emailMaiara {
+    padding: 2rem;
+}
+.send-email {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 0.5rem 0.5rem 0.5rem  rgb(41, 41, 41);
+}
+@media only screen and (max-width: 400px) {
+    .send-email{
+        text-align: center;
+        font-size: 2rem;
+        width: 20rem;
+     }}
+.Facebook {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.Face-Img {
+    width: 8rem;
+}
+.facebook {
+    font-size: 3rem;
+    text-shadow: 0.5rem 0.5rem 0.5rem  rgb(41, 41, 41);
+}
+@media only screen and (max-width: 400px) {
+    .facebook {
+        text-align: center;
+        font-size: 2rem;
+        
+     }}
+.QR-Code {
+   margin-top: 4rem;
+   padding: 1rem;
+   background-color: white;
+   border-radius: 2rem;
+}

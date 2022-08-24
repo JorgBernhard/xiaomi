@@ -22,7 +22,7 @@ export default function NavBar() {
                     <div className="links-header">
                         <a href='#main'>Home</a>
                         <a href='#celulares' >Celulares</a>
-                        <a href='#contact' >Contact</a>
+                        <a href='#contato' >Contato</a>
                     </div>
                 </div>
             </nav>

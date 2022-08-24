@@ -4,6 +4,7 @@ import './index.css';
 import Header from './Pages/Header/Header';
 import Main from './Pages/Main/Main';
 import Celulares from './Pages/Celulares/Celulares';
+import Contato from './Pages/Contato/Contato';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,5 +12,6 @@ root.render(
     <Header />
     <Main />
     <Celulares />
+    <Contato />
   </React.StrictMode>
 );
