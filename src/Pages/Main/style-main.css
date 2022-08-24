@@ -1,0 +1,122 @@
+.Container-Main {
+  background-image: url('../../assets/xiaomi11pro.png');
+  background-size: cover;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+@media only screen and (max-width: 400px) {
+  .Container-Main {
+    display: flex;
+  flex-direction: column;
+   }}
+.Xiaomi-logo {
+  width: 40rem;
+  height: 40rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+@media only screen and (max-width: 800px) {
+  .Xiaomi-logo {
+    width: 30rem;
+    height: 30rem;
+    padding: 2rem;
+   }}
+@media only screen and (max-width: 400px) {
+  .Xiaomi-logo {
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+   }}
+.Titulo {
+  display: flex;
+  flex-direction: column;
+}
+
+.Nome {
+  font-size: 6rem;
+  color: rgb(253, 83, 21);
+  text-shadow: 0.5rem 0.5rem 0.5rem  rgb(41, 41, 41);
+  margin-left: 3rem;
+}
+@media only screen and (max-width: 800px) {
+  .Nome {
+    font-size: 4rem;
+     
+    margin-left: 3rem;
+   }}
+   @media only screen and (max-width: 400px) {
+    .Nome {
+      font-size: 3.2rem;
+     
+      margin-left: 3rem;
+     }}
+.Cidade {
+  font-size: 4rem;
+  color: white;
+  margin-left: 3rem;
+  text-shadow: 0.5rem 0.5rem 0.5rem  rgb(41, 41, 41);
+}
+@media only screen and (max-width: 800px) {
+  .Cidade {
+    font-size: 3rem;
+    color: white;
+  
+    margin-left: 3rem;
+   }}
+   @media only screen and (max-width: 400px) {
+    .Cidade {
+      font-size: 2rem;
+      color: white;
+    
+      margin-left: 3rem;
+     }}
+
+.Texto {
+  font-size: 2.4rem;
+  color: white;
+  margin-top: 13rem;
+  margin-left: 3rem;
+  text-shadow: 0.5rem 0.5rem 0.5rem  rgb(41, 41, 41);
+}
+@media only screen and (max-width: 800px) {
+  .Texto {
+    font-size: 2.4rem;
+  color: white;
+  margin-top: 13rem;
+  margin-left: 0rem;
+   }}
+   @media only screen and (max-width: 400px) {
+    .Texto {
+      font-size: 1.8rem;
+    color: white;
+    margin-top: 6rem;
+    margin-left: 3rem;
+     }}
+.charger {
+  width: 55rem;
+  border-radius: 5rem;
+  border: solid 0.3rem rgb(253, 83, 21);
+  margin-left: 4rem;
+
+}
+  @media only screen and (max-width: 800px) {
+  .charger {
+    width: 50rem;
+    margin-left: -4rem;
+   }}
+   
+   @media only screen and (max-width: 400px) {
+    .charger {
+      width: 30rem;
+      border-radius: 5rem;
+      border: solid 0.3rem rgb(253, 83, 21);
+      margin-left: 4rem;
+      margin-top: 6rem;
+
+     }}

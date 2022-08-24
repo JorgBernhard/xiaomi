@@ -1,0 +1,50 @@
+.Container-Celulares {
+  background-color: rgb(43, 66, 85);
+  width: 100vw;
+  background-image: url('../../assets/back.png');
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  
+}
+
+.estoque {
+  margin-top: 6rem;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 0.5rem 0.5rem 0.5rem  rgb(41, 41, 41);
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  width: 60rem;
+  padding: 3rem;
+  background-color: rgba(136, 120, 226, 0.26);
+  border-radius: 5rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+@media only screen and (max-width: 400px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    width: 36rem;
+    
+   }}
+li {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  margin-left: 1rem;
+}
+.foto {
+  width: 20rem;
+  margin-right: 1rem;
+}
+@media only screen and (max-width: 400px) {
+  .foto {
+    margin-bottom: 1rem;
+   }}
