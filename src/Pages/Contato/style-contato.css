@@ -24,12 +24,14 @@
     .Info-Maiara {
         text-align: center;
         font-size: 2rem;
-        width: 20rem;
+        width: 30rem;
      }}
 .emailMaiara {
-    padding: 2rem;
+    padding:2rem 1rem;
+    
 }
 .send-email {
+    text-align: center;
     font-size: 3rem;
     color: white;
     text-shadow: 0.5rem 0.5rem 0.5rem  rgb(41, 41, 41);
@@ -38,7 +40,7 @@
     .send-email{
         text-align: center;
         font-size: 2rem;
-        width: 20rem;
+        width: 38rem;
      }}
 .Facebook {
    display: flex;

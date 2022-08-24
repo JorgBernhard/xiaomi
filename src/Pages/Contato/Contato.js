@@ -12,7 +12,7 @@ function Contato() {
             <h2 className="Contato-header">Contato</h2>
             <h3 className="Info-Maiara">Entre em contato com Maiara (84) 99701-7888</h3>
               <div className="emailMaiara">
-                <a className="send-email" href="mailto:xiaomismartfones@gmail.com" alt="email">Email:xiaomismartfones@gmail.com</a><br></br>
+                <a className="send-email" href="mailto:xiaomismartfones@gmail.com" alt="email">Email: xiaomismartfones@gmail.com</a><br></br>
               </div>
                <div className="Facebook">
                 <img className="Face-Img" src={Facebook} alt="facebook" />
